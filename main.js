@@ -17,7 +17,7 @@ while (contador < listaDeTeclas.length) {
     
     const tecla = listaDeTeclas [contador].classList[1]
     const instumentro = tecla.classList[1]
-    const idAudio = `#som_${instrumento}`
+    const idAudio = `#som_${instrumento}`                         //Alternativa
     listaDeTeclas[contador].onclick = function() {
         tocaSom(idAudio)
     } 
